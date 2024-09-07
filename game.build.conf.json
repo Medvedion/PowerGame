@@ -1,7 +1,7 @@
 {
   "package": {
-    "productName": "My QspiderGame",
-    "version": "1.0.0"
+    "productName": "Power",
+    "version": "0.3.1"
   },
   "build": {
     "distDir": "../dist/apps/player-standalone",
@@ -12,26 +12,21 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "my.game.id",
-      "publisher": "qSpider games",
-      "copyright": "werewolf",
+      "identifier": "36b8.4363.a6ba.f11f1bea44d0",
+      "publisher": "Strobilus",
+      "copyright": "Strobilus",
       "category": "Game",
-      "shortDescription": "",
-      "longDescription": ""
+      "shortDescription": "-",
+      "longDescription": "-"
     },
     "updater": {
-      "active": true,
-      "endpoints": [
-        ""
-      ],
-      "dialog": true,
-      "pubkey": ""
+      "active": false
     },
     "windows": [
       {
-        "title": "My Game",
-        "width": 1024,
-        "height": 768,
+        "title": "Power",
+        "width": 1280,
+        "height": 720,
         "center": true,
         "resizable": true,
         "fullscreen": false,
